@@ -5,6 +5,7 @@
             "/opt/lampp/htdocs/SchoolSystem/pages"
         ],
         "files": [
+            "/opt/lampp/htdocs/SchoolSystem/pages/styl.css",
             "/opt/lampp/htdocs/SchoolSystem/pages/studentReg.html"
         ]
     },
