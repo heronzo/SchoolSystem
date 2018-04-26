@@ -451,8 +451,8 @@
             "isNative": true
         }
     },
-    "theme": "vs-dark vscode-theme-defaults-themes-dark_plus-json",
-    "themeBackground": "#1e1e1e",
+    "theme": "vs-dark vscode-theme-abyss-themes-abyss-color-theme-json",
+    "themeBackground": "#000c18",
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
