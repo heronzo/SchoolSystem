@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+<div id="container">
+<h2><b>Student Registration</b></h2>
+	<div id="forms">
+	<!-- <span align="left">Personal Details</span><span align="center">Academic Details</span><span align="right">Parents Details</span> -->
+		<div id="formp1">
+				<div id="profileimage">
+                </div>
+                <div id="profileimage1">
+                <form action="studentReg.php" method="POST">
+                <input type="submit" id="profile" name="pimage" value="Upload Pic" style="font-size : 20px; width: 120px; height: 40px; background-color: #66CDAA;"/>
+                </form>
+                </div>
+                <!-- Profile Picture -->
+                <div id="profileimage2">
+                <form action="studentReg.php" method="POST">
+First Name: <input type="text" id="fname" name="fname" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 17px;"/><br>
+Middle Name: <input type="text" id="mname" name="mname" style="font-size : 10px; width: 140px; height: 15px; margin: 5px 0px 0px 0px;"/><br>
+Last Name:<input type="text" id="lname" name="lname" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 25px;"/><br>
+Adn No: <input type="text" id="adm" name="adm" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 45px;"/><br>
+Hostel: <select style="font-size : 10px; width: 140px; height: 15px; margin: 5px 0px 0px 53px;"/>        
+            <option value="kili">Kilimanjaro</option>
+            <option value="lgon">Elgon</option>
+            <option value="ken">Kenya</option>
+            <option value="nzori">Rwenzori</option>
+       </select><br>
+D.O.B:<input type="date" data-date-inline-picker="true" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 63px;"/><br>
+Phone No: <input type="text" id="fname" name="fname" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 25px;"/><br>
+Email : <input type="Email" id="mail" name="mail" placeholder="name@example.com" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 53px;"/><br>
+Gender :<input type="radio" value="rad" name="mrdbtn" style="font-size : 10px; width: 40px; height: 15px;margin: 5px 0px 0px 0px;"/>Male
+<input type="radio" value="rad" name="frdbtn" style="font-size : 10px; width: 40px; height: 15px;margin: 5px 0px 0px 0px;"/>Female<br>
+</form>
+
+                </div>
+		    </div>
+		    	<div id="formp2">
+                <!-- Profile Picture -->
+                <div id="profileimage2b">
+                <form action="studentReg.php" method="POST">
+       County: <select style="font-size : 10px; width: 140px; height: 15px; margin: 5px 0px 0px 63px;"/>        
+            <option value="kisumu">Kisumu</option>
+            <option value="siaya">Siaya</option>
+            <option value="homabay">Homa Bay</option>
+            <option value="migori">Migori</option>
+       </select><br>
+District : <input type="text" id="district" name="district" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 55px;"/><br>
+Postal Address: <input type="text" id="address" name="address" style="font-size : 10px; width: 140px; height: 15px; margin: 5px 0px 0px 0px;"/><br>
+Postal Code: <input type="text" id="code" name="code" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 23px;"/><br>
+City : <input type="text" id="city" name="city" style="font-size : 10px; width: 140px; height: 15px;margin: 5px 0px 0px 80px;"/><br>
+<input type="submit" id="submitdetails" name="detailssubmission" value="Submit Details" style="font-size : 20px; width: 140px; height: 35px;background-color: #66CDAA; text-align: center; margin: 25px 0px 0px 130px;"/>
+</form>
+
+                </div>
+		    </div>
+		</div>
+	</div>	
+</body>
+</html>
