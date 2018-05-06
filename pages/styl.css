@@ -1,120 +1,126 @@
-body{
-	/*background-image: url('images/java.jpg');*/
-	background-color: #ffffff;
-	width: 1200px;
-
+body {
+    /*background-image: url('images/java.jpg');*/
+    background-color: #ffffff;
+    width: 1200px;
 }
-#container{
-	background-color: #66CDAA;
-	background-repeat:no-repeat;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	height: 600px;
 
+#container {
+    background-color: #66CDAA;
+    /* background-color: #0066FF; */
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 600px;
 }
+
 #container h2 {
-	color:#FFFFFF;
-	text-align: center;
+    color: #FFFFFF;
+    text-align: center;
 }
-#forms input{
-	margin-left:10px;
-	margin-top: 30px;
 
+#forms input {
+    margin-left: 10px;
+    margin-top: 30px;
 }
-#forms p{
-	margin-left:10px;
 
+#forms p {
+    margin-left: 10px;
 }
-#forms{
-	
-	background-color: #ffffff;
-	background-repeat:no-repeat;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	height: 500px;
 
+#forms {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 500px;
 }
-#forms >#formp1{
-	width: 300px;
-	height: 420px;
-	background-color: #ffffff ;
-	/*align-self: right;*/
-	border-left: 150px solid #FFFFFF;
-	border-top: 40px solid #FFFFFF;
-	float: left;
-	/*margin-left: 10px;
+
+#forms>#formp1 {
+    width: 300px;
+    height: 420px;
+    background-color: #ffffff;
+    /*align-self: right;*/
+    border-left: 150px solid #FFFFFF;
+    border-top: 40px solid #FFFFFF;
+    float: left;
+    /*margin-left: 10px;
 	padding-top: 10px;*/
 }
-#forms >#formp2{
-	width: 300px;
-	height: 420px;
-	background-color: #ffffff ;
-	/*align-self: right;*/
-	border-right: 150px solid #FFFFFF;
-	border-top: 40px solid #FFFFFF;
-	float: right;
-	/*margin-left: 10px;
+
+#forms>#formp2 {
+    width: 300px;
+    height: 420px;
+    background-color: #ffffff;
+    /*align-self: right;*/
+    border-right: 150px solid #FFFFFF;
+    border-top: 40px solid #FFFFFF;
+    float: right;
+    /*margin-left: 10px;
 	padding-top: 10px;*/
 }
-#forms >#formp1 >#profileimage{
-	width: 100px;
-	height: 100px;
-	float: left;
-	background-color:#B0C4DE;
-	margin-left: 20px;
+
+#forms>#formp1>#profileimage {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: #B0C4DE;
+    margin-left: 20px;
 }
+
+
 }
-#forms >#formp2 >#profileimage0{
-	width: 100px;
-	height: 100px;
-	float: left;
-	background-color:#ffffff;
-	margin-left: 20px;
+#forms>#formp2>#profileimage0 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: #ffffff;
+    margin-left: 20px;
 }
-#forms >#formp1 >#profileimage1{
-	width: 160px;
-	height: 100px;
-	background-color:#ffffff;
-	margin-left: 130px;
+#forms>#formp1>#profileimage1 {
+    width: 160px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-left: 130px;
 }
-#forms >#formp2 >#profileimage1a{
-	width: 160px;
-	height: 100px;
-	background-color:#B0C4DE;
-	margin-left: 130px;
+#forms>#formp2>#profileimage1a {
+    width: 160px;
+    height: 100px;
+    background-color: #B0C4DE;
+    margin-left: 130px;
 }
-#forms >#formp1 >#profileimage2{
-	width: 280px;
-	height: 280px;
-	background-color:#ffffff;
-	margin-left: 10px;
+#forms>#formp1>#profileimage2 {
+    width: 280px;
+    height: 280px;
+    background-color: #ffffff;
+    margin-left: 10px;
 }
-#forms >#formp2 >#profileimage2b{
-	width: 280px;
-	height: 280px;
-	background-color:#ffffff;
-	margin-left: 10px;
-	margin-top: 50px;
+#forms>#formp2>#profileimage2b {
+    width: 280px;
+    height: 280px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-top: 50px;
 }
-#forms >#formp3{
-	width: 200px;
-	height: 500px;
-	background-color: #DDA0DD ;
-	align-self: right;
-	/*margin-left: 10px;
+#forms>#formp3 {
+    width: 200px;
+    height: 500px;
+    background-color: #DDA0DD;
+    align-self: right;
+    /*margin-left: 10px;
 	padding-top: 10px;*/
 }
-#profileimage{
-	width: 100px;
-	height: 100px;
-	background-color:#B0C4DE;
-	margin-left: 20px;
-	margin-bottom: 0px;
+#profileimage {
+    width: 100px;
+    height: 100px;
+    background-color: #B0C4DE;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
+
 /*#forms input{
 	border-width: 2px solid #fc03;
 	margin-left:10px;
